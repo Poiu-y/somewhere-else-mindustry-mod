@@ -1,0 +1,12 @@
+displayName: Somewhere Else
+description:
+  '''
+  on a planet at the edge of serpulo's solar system, the[[#88ffaa] old wars[]] have never ended, but you just might change that.
+
+  (wip) [#ff8888]Campaign does NOT exist yet[]
+  '''
+subtitle: "♦♦"
+minGameVersion: 146
+name: "somewhere-else"
+#this is still in alpha
+version: 0
