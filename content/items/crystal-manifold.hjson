@@ -1,0 +1,8 @@
+name: Ailium
+description: a sturdy but glass like crystal, cultavates it's latace when exposed to water.
+hardness: 50
+cost: 0.5
+alwaysUnlocked: false
+color: aaaaaa
+research: phase-fabric
+hiddenOnPlanets: [serpulo, erekir]
