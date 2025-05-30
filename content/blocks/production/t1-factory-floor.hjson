@@ -1,5 +1,6 @@
 type: Floor
 name: Factory Foundation
+variants: 1
 buildVisibility: shown
 description: a simple floor that isolates structures from the ground beneath, boosting efficiency.
 category: crafting
