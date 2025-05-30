@@ -1,11 +1,12 @@
 type: Floor
-name: Factory Foundation
+name: "Factory Foundation"
 variants: 1
 buildVisibility: shown
-description: a simple floor that isolates structures from the ground beneath, boosting efficiency.
+description: "a simple floor that isolates structures from the ground beneath, boosting efficiency."
 category: crafting
 requirements: [
   lead/4
   silicon/1
 ]
 supportsOverlay: false
+isLiquid: false
