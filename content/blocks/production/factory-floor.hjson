@@ -8,3 +8,4 @@ requirements: [
   lead/4
   silicon/1
 ]
+supportsOverlay: false
