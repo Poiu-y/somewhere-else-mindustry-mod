@@ -26,3 +26,4 @@ shadowElevation: 0.2
 groundLayer: 74
 weapons: []
 buildSpeed: 0.7
+canBuild:true
