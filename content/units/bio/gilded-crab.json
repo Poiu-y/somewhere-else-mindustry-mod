@@ -1,0 +1,28 @@
+type: legs
+name: "Gilded Rabl"
+description: "a slow moving crustacean with little offensive ability"
+speed: 0.5
+drag: 0.2
+hitSize: 6
+rotateSpeed: 2
+armor: 6
+health: 350
+stepShake: 1
+outlineColor: 888888
+legCount: 8
+legLength: 10
+legGroupSize: 4
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 3
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.75
+legForwardScl: 0.9
+legMoveSpace: 1
+hovering: true
+shadowElevation: 0.2
+groundLayer: 74
+weapons: []
+buildSpeed: 0.7
