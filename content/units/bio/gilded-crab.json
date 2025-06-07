@@ -10,12 +10,12 @@ health: 350
 stepShake: 1
 outlineColor: 888888
 legCount: 8
-legLength: 10
+legLength: 7
 legGroupSize: 4
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
-legBaseOffset: 3
+legBaseOffset: 1
 legMaxLength: 1.1
 legMinLength: 0.2
 legLengthScl: 0.75
