@@ -18,7 +18,7 @@ legExtension: -3
 legBaseOffset: 2
 legMaxLength: 1.1
 legMinLength: 0.2
-legLengthScl: 1
+legLengthScl: 0.85
 legForwardScl: 0.9
 legMoveSpace: 1
 hovering: true
