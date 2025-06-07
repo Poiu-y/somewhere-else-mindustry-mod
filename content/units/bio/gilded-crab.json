@@ -14,11 +14,11 @@ legLength: 7
 legGroupSize: 4
 lockLegBase: true
 legContinuousMove: true
-legExtension: 0
+legExtension: -3
 legBaseOffset: 2
 legMaxLength: 1.1
 legMinLength: 0.2
-legLengthScl: 0.75
+legLengthScl: 1
 legForwardScl: 0.9
 legMoveSpace: 1
 hovering: true
