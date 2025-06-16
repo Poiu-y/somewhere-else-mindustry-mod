@@ -26,7 +26,6 @@ abilities: [
     spawnY: 0
   }
 ]
-controller: HugAI
 weapons: [
 	{
 		x: 0
