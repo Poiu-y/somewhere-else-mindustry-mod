@@ -37,8 +37,7 @@ weapons: [
 		alternate: false
 		continuous: true
 		alwaysContinuous: true
-    //placeholder
-    shootStatus: unmoving
+		shootStatus: wild-aging
 		shootStatusDuration: 5
 		
 		bullet: {
