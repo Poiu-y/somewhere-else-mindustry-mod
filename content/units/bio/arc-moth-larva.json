@@ -40,9 +40,9 @@ weapons: [
 			type: ContinuousFlameBulletType
 			damage: 8
 			flareLength: 0
-			length: 8
+			length: 0.1
 			rangeOverride: 40
-			width: 1.5
+			width: 1
 			knockback: 1
 			pierceCap: 1
 			colors: [
