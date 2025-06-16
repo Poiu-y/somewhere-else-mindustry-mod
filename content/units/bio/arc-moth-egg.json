@@ -17,7 +17,6 @@ health: 125
 armor: 1
 hitSize: 6
 canDrown: true
-weapons: []
 abilities: [
   {
     type: UnitSpawnAbility
@@ -26,4 +25,34 @@ abilities: [
     spawnX: 0
     spawnY: 0
   }
+]
+weapons: [
+	{
+		x: 0
+		y: 0
+		shootY: 0
+		shootCone: 0
+		reload: 60
+		mirror: false
+		alternate: false
+		continuous: true
+		alwaysContinuous: true
+    //placeholder
+    shootStatus: unmoving
+		shootStatusDuration: 5
+		
+		bullet: {
+			type: ContinuousFlameBulletType
+			damage: 0
+			flareLength: 0
+			length: 0
+			rangeOverride: 0
+			width: 0
+			knockback: 0
+			pierceCap: 0
+			colors: [
+				000000
+			]
+		}
+	}
 ]
