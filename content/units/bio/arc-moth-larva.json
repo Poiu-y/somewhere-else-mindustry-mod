@@ -8,7 +8,7 @@ mineWalls: true
 drawBody: false
 drawCell: false
 rotateToBuilding: false
-segments: 3
+segments: 5
 segmentScl: 3
 groundLayer: 69.69
 segmentPhase: 5
