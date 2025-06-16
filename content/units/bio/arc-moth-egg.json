@@ -17,6 +17,7 @@ health: 125
 armor: 1
 hitSize: 6
 canDrown: true
+drawCell:false
 abilities: [
   {
     type: UnitSpawnAbility
