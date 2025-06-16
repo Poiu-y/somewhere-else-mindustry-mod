@@ -39,7 +39,7 @@ weapons: [
 		alwaysContinuous: true
 		shootStatus: aging
 		shootStatusDuration: 5
-		
+		alwaysShooting:true
 		bullet: {
 			type: ContinuousFlameBulletType
 			damage: 0
