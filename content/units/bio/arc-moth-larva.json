@@ -9,7 +9,7 @@ drawBody: false
 drawCell: false
 rotateToBuilding: false
 segments: 5
-segmentScl: 3
+segmentScl: 4
 groundLayer: 69.69
 segmentPhase: 5
 segmentMag: 0.5
@@ -27,8 +27,8 @@ weapons: [
 	{
 		x: 0
 		y: 0
-		shootY: 8
-		shootCone: 180
+		shootY: 6
+		shootCone: 100
 		reload: 60
 		mirror: false
 		alternate: false
