@@ -1,0 +1,29 @@
+type: mech
+name:Arc-Egg
+description: an egg from an Arc Moth, fragile
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.08
+outlineColor: 555555
+speed: 0
+rotateSpeed: 0
+accel: 0.095
+groundLayer: 60
+health: 125
+armor: 1
+hitSize: 6
+canDrown: true
+weapons: []
+abilities: [
+  {
+    type: UnitSpawnAbility
+    spawnTime: 125
+    unit: arc-moth-larva
+    spawnX: 0
+    spawnY: 0
+  }
+]
