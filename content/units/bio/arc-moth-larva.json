@@ -47,6 +47,8 @@ weapons: [
 			pierceCap: 1
 			colors: [
 				24d6c4,
+				00a391,
+				008a78ee,
 			]
 		}
 	}
