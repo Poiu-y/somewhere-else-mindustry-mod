@@ -44,10 +44,10 @@ weapons: [
 		bullet: {
 			type: ContinuousFlameBulletType
 			damage: 0
-			flareLength: 0
+			flareLength: 0.1
 			length: 0
-			rangeOverride: 0
-			width: 0
+			rangeOverride: 9999999
+			width: 0.1
 			knockback: 0
 			pierceCap: 0
 			colors: [
