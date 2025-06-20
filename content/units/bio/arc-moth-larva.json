@@ -51,5 +51,32 @@ weapons: [
 				008a78,
 			]
 		}
+	{
+		x: 0
+		y: 0
+		shootY: 0
+		shootCone: 0
+		reload: 60
+		mirror: false
+		alternate: false
+		continuous: true
+		alwaysContinuous: true
+		shootStatus: aging
+		shootStatusDuration: 5
+		alwaysShooting:true
+		shootSound: null
+		bullet: {
+			type: ContinuousFlameBulletType
+			damage: 0
+			flareLength: 0.1
+			length: 0.1
+			rangeOverride: 9999999
+			width: 0.1
+			knockback: 0
+			pierceCap: 1
+			colors: [
+				000000
+			]
+		}
 	}
 ]
