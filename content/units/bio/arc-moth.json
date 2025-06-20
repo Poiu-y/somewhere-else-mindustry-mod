@@ -22,7 +22,7 @@ abilities: [
     y: 0
     rotateEffect: true
     rotation: 0
-    parentizeEffects: true // this doesn't work with MultiEffect unfortunately, nothing can be done about it
+    parentizeEffects: true 
     effect: {
       type: MultiEffect
       effects: [
