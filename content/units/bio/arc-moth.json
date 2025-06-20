@@ -59,7 +59,7 @@ abilities: [
         }
       ]
     }
-  {
+    {
     type: MoveEffectAbility
     minVelocity: 0
     interval: 2
