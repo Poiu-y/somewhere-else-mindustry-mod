@@ -13,3 +13,95 @@ hitSize: 13
 flying: true
 faceTarget: true
 circleTarget: true
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -3
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true 
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: arc-moth-left-wing-up
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 20
+          sizeTo: 20
+          baseRotation: 210
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: arc-moth-left-wing-low
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 20
+          sizeTo: 20
+          baseRotation: 240
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -3
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true 
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: arc-moth-right-wing-up
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 20
+          sizeTo: 20
+          baseRotation: 210
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: arc-moth-right-wing-low
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 20
+          sizeTo: 20
+          baseRotation: 240
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
