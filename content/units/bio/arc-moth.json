@@ -1,0 +1,15 @@
+type: flying
+name: 
+description: 
+drawCell: false
+immunities: [shocked]
+outlineColor: 555555
+drag: 0.08
+accel: 0.09
+health: 840
+armor: 2
+speed: 3
+hitSize: 13
+flying: true
+faceTarget: true
+circleTarget: true
