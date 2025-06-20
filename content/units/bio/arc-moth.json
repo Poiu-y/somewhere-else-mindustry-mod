@@ -1,6 +1,6 @@
 type: flying
-name: 
-description: 
+name: Arc Moth
+description: a massive moth with the ability to store an electric charge in it's shell, only attacks when prevoked
 drawCell: false
 immunities: [shocked]
 outlineColor: 555555
