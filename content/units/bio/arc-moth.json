@@ -22,7 +22,7 @@ abilities: [
     y: 0
     rotateEffect: true
     rotation: 0
-    parentizeEffects: true 
+    parentizeEffects: true // this doesn't work with MultiEffect unfortunately, nothing can be done about it
     effect: {
       type: MultiEffect
       effects: [
@@ -31,7 +31,7 @@ abilities: [
           layer: 91
           followParent: true
           rotWithParent: true
-          region: arc-moth-left-wing-up
+          region: ark-moth-wing-low-left
           particles: 1
           length: 0
           spin: 15
@@ -46,7 +46,7 @@ abilities: [
           layer: 91
           followParent: true
           rotWithParent: true
-          region: arc-moth-left-wing-low
+          region: ark-moth-wing-low-left
           particles: 1
           length: 0
           spin: -15
@@ -59,15 +59,16 @@ abilities: [
         }
       ]
     }
-    {
+  }
+  {
     type: MoveEffectAbility
     minVelocity: 0
     interval: 2
-    x: -3
+    x: 3
     y: 0
     rotateEffect: true
     rotation: 0
-    parentizeEffects: true 
+    parentizeEffects: true
     effect: {
       type: MultiEffect
       effects: [
@@ -76,14 +77,14 @@ abilities: [
           layer: 91
           followParent: true
           rotWithParent: true
-          region: arc-moth-left-wing-up
+          region: ark-moth-wing-high-left
           particles: 1
           length: 0
-          spin: 15
+          spin: -15
           lifetime: 2
           sizeFrom: 20
           sizeTo: 20
-          baseRotation: 210
+          baseRotation: -30
           lightOpacity: 0
         }
         {
@@ -91,14 +92,106 @@ abilities: [
           layer: 91
           followParent: true
           rotWithParent: true
-          region: arc-moth-left-wing-low
+          region: ark-moth-wing-high-left
           particles: 1
           length: 0
-          spin: -15
+          spin: 15
           lifetime: 2
           sizeFrom: 20
           sizeTo: 20
-          baseRotation: 240
+          baseRotation: -60
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -3.5
+    y: 3
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 90.5
+          followParent: true
+          rotWithParent: true
+          region: ark-moth-wing-low-right
+          particles: 1
+          length: 0
+          spin: 10
+          lifetime: 2
+          sizeFrom: 24
+          sizeTo: 24
+          baseRotation: 180
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 90.5
+          followParent: true
+          rotWithParent: true
+          region: ark-moth-wing-low-right
+          particles: 1
+          length: 0
+          spin: -10
+          lifetime: 2
+          sizeFrom: 24
+          sizeTo: 24
+          baseRotation: 200
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: 3.5
+    y: 3
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 90.5
+          followParent: true
+          rotWithParent: true
+          region: ark-moth-wing-high-right
+          particles: 1
+          length: 0
+          spin: -10
+          lifetime: 2
+          sizeFrom: 24
+          sizeTo: 24
+          baseRotation: 0
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 90.5
+          followParent: true
+          rotWithParent: true
+          region: ark-moth-wing-high-right
+          particles: 1
+          length: 0
+          spin: 10
+          lifetime: 2
+          sizeFrom: 24
+          sizeTo: 24
+          baseRotation: -20
           startDelay: 1
           lightOpacity: 0
         }
